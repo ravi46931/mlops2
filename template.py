@@ -38,3 +38,5 @@ for file_path in list_of_file:
     if (not os.path.exists(file_path)) or (os.path.getsize(file_path)==0):
         with open(file_path,"w") as f:
             pass
+
+# This is code
